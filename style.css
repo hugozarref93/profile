@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+/* Global styles */
+body {
+  background-color: rgb(40, 64, 40);
+  color: grey;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* Headings */
+h1, h2, h3 {
+  text-align: center;
+}
+
+h1 {
+  color: brown;
+}
+
+h2 {
+  color: brown;
+}
+
+h3 {
+  color: red;
+}
+
+/* Card styles */
+div.card {
+  background-color: beige;
+  width: 90%; /* Adjust the width to make it responsive */
+  max-width: 500px; /* Add a max-width to prevent it from getting too wide */
+  margin: 50px auto;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styles */
+.img-circle {
+  border-radius: 50%;
+  max-width: 100%; /* Ensure images don't exceed their container's width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Text alignment utility class */
+.text-center {
+  text-align: center;
+}
+
+/* List styles */
+ul {
+  list-style: none;
+}
+
+/* Image styles */
+img {
+  border-radius: 5%;
+  max-width: 100%; /* Ensure images don't exceed their container's width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+  div.card {
+    width: 95%;
+  }
+}
